@@ -1,0 +1,644 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.body-content, .content{
+  max-width: 1200px;
+  margin: auto;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(49, 49, 49);
+font-family: 'roboto';
+}
+
+.card {
+  display:flex;
+        align-items:center;
+        justify-content:center;
+        border-bottom: 1px solid black;
+}
+
+.title-section {
+  max-width: 100% !important;
+  background-image: url(./images/stock-1863880_1920.jpg), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  
+    background-blend-mode: overlay;
+    margin-bottom: 50px;
+
+  
+  
+}
+
+input.react-autosuggest__input {
+  width: 98.6%;
+  font-size: 18px;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  border: 1px rgb(145, 145, 145) solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.right-col {
+text-align: left;
+
+}
+
+.left-col {
+  min-width: 34%;
+}
+.newsImage{	
+	width:100%;
+}
+.extra-info {
+  display: flex;
+  font-weight: 300;
+}
+
+.sentiment {
+  font-weight: bold;
+}
+
+.Neutral {
+  color: gray;
+}
+
+.Negative {
+  color: red;
+}
+
+.Positive {
+  color: rgb(0, 190, 0);
+}
+
+.body {
+  margin-top: -15px;
+}
+
+
+.navBar {
+
+background-color: rgb(22, 22, 22);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+img.logo {
+  width: 10%;
+  padding: 10px;
+}
+
+img.stocks {
+  width: 100%;
+  display: block;
+}
+
+.left {
+  width: 50%;
+}
+
+.navBar {
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);;
+}
+.navText {
+  color: white;
+}
+
+
+
+
+.newsletter {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.newsletter input {
+  width: 50%;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.popup-content  {
+  margin-top: 30px;
+  background-color: rgb(22, 22, 22) !important;
+  padding: 0px 0px !important;
+  border-radius: 5px;
+  box-shadow: 0px 0px 39px 17px rgba(0,0,0,0.2) !important;
+  border: none !important;
+}
+
+.popup-arrow{
+  background-color: rgb(22, 22, 22) !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 170px;
+  padding-top: 10px;
+}
+
+.sakka {
+  background-color: rgb(22, 22, 22) !important;
+  border: none;
+  border-bottom: 1.3px solid rgb(211, 211, 211);
+  width: 75%;
+
+}
+
+.submitlogin {
+  background-color: #00edff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 800;
+  width: 85%;
+  border: none !important;
+}
+
+input.sakka {
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px ;
+}
+
+p.modaltext {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin: 3px !important;
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.two {
+  margin-top: -5px!important;
+}
+
+p.three {
+  margin-bottom: 8px !important;
+}
+
+input.sakka:active {
+  border-bottom: 2px solid #00edff !important;
+
+}
+
+p.modaltext.two {
+  margin-top: -9px !important;
+}
+
+div#react-autowhatever-1 {
+  position: absolute;
+  background-color: white;
+  width: 1180px;
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  list-style: none;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 7px 0px;
+}
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+        .marketopenprice {
+          font-size: 40px;
+          text-align: end;
+          font-weight: 900;
+          margin: 0px;
+          margin-top: 20px;
+      }
+
+      .marketclosedprice {
+          display: none;
+      }
+
+        span.price-change {
+          font-size: 16px;
+      }
+
+      .marketisclosed {
+        display: none;
+      }
+
+      .closedmarkettable {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    font-family: 'roboto';
+    margin-bottom: 4px;
+      }
+
+      .closedmarkettablenumbers {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+font-size: 18px;
+      }
+
+    .up{
+      color: green;
+    }
+
+    .down {
+      color: red;
+    }
+
+    .open {
+      display: none;
+
+    }
+
+    .premarket {
+      font-family: 'Roboto Mono', monospace !important;
+font-size: 14px;
+    }
+
+    .open-or-not {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+  }
+
+    .premarket2 {
+      font-family: 'Roboto Mono', monospace !important;
+      font-size: 24px;
+      background-color: black;
+      color: white;
+      padding: 5px 15px;
+  
+  }
+
+
+      .div3 {
+        padding-top: 10px;
+    }
+
+    .div6, .div7 {
+      width: 100%;
+  }
+
+
+
+.stock-left-col {
+  width: 40%;
+  padding-right: 40px;
+  text-align: end;
+}
+
+.stock-right-col {
+  width: 60%
+}
+
+.stock-bars {
+  display: flex;
+}
+
+.left-right {
+  display: flex;
+}
+
+
+
+.fillred {
+  width: 15px;
+  height: 15px;
+  transform: rotate(180deg);
+  fill: red !important;
+  vertical-align: bottom;
+  color: red;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  fill: green !important;
+  vertical-align: bottom;
+  color: green;
+  vertical-align: middle;
+}
+.stockLogo {
+  width: 10%;
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+
+.stockTicker {
+  margin: 0;
+  font-size: 34px;
+  font-weight: bolder;
+  font-family: 'poppins'
+}
+
+.title-div {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  align-items: flex-end;
+}
+
+div.accordion__button {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.linebreak {
+  height: 3px;
+  background-color: black;
+  width: 100%;
+}
+
+.linebreaksmall
+ {
+  height: 1px;
+  background-color: rgb(182, 182, 182);
+  width: 100%;
+}
+
+.parent {
+  column-gap: 20px;
+}
+
+    .input-range__track--active {
+      background: #05edff !important;
+  }
+  
+  .input-range__slider {
+    background: #2df0ff !important;
+    border: 1px solid #12eeff !important;
+  }
+
+  .topNav {
+    height: 25px;
+    background-color: #272727;     
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.topNavHeader {
+  width: 1200px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.stockTitle {
+
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: white;
+}
+
+input.react-autosuggest__input {
+  margin-bottom: 30px;
+}
+
+.bartitle {
+  text-align: center;
+}
+
+.input-range {
+  height: 1rem;
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.input-range {
+  height: 1rem;
+  position: relative;
+  width: 80% !important;
+}
+
+input.input-3lfOzLDc {
+  cursor: default !important;
+}
+
+input.react-autosuggest__input {
+  margin-bottom: 30px;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+div#react-autowhatever-1 {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  list-style: none;
+margin-top: 2px;
+  font-size: 20px;
+  position: absolute;
+  /* right: 0; */
+  /* left: 0; */
+  /* width: 100px; */
+  margin-left: 25%;
+  margin-right: 25%;
+  z-index: 100;
+}
+
+
+.latesttime {
+  margin: 0;
+  margin-top: 10px;
+
+}
+
+.realtimequote {
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace !important;
+
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.watchlistbutton {
+  float: right
+}
+
+.title-div-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.watchlistbutton {
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: white;
+  font-family: 'roboto mono';
+}
+
+.summary {
+  text-overflow: clip;
+  overflow: hidden;
+  height: 105px;
+}
+
+.accordion__button {
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.accordion {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.newscolumns {
+  display: flex;
+
+}
+
+.singlenewsarticle {
+  width: 60%;
+}
+
+.newstitle {
+
+    font-size: 34px;
+    font-weight: bolder;
+    font-family: 'poppins';
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.news {
+  width: 40%;
+  padding-left: 30px;
+}
+
+.singlenewsarticle .card {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.singlenewsarticle .left-col {
+  min-width: 100%; 
+  max-width: 100%;
+  width: 100%;
+}
+
+.news .summary {
+  text-overflow: clip;
+  overflow: hidden;
+  height: 105px;
+  display: none;
+}
+
+
+.news h1 {
+  font-size: 16px;
+}
+
+.news h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.news .newsImage {
+  width: 147px;
+  height: 93px;
+}
+
+.news .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 118px;
+}
+
+.news p {
+  font-size: 14px;
+  color: rgb(49, 49, 49);
+  font-family: 'roboto';
+}
+
+.news .right-col {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.accordioncontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Toastify__toast-body {
+  text-align: center;
+}
+
+.Toastify__toast--success {
+  background: #07bc0c;
+  background-image: url(./images//stocky.jpg), linear-gradient(rgb(0, 255, 43),rgb(9, 255, 5)) !important;
+  background-size: cover !important;
+}
+
+.Toastify__toast-body {
+  margin: auto 0;
+  flex: 1 1;
+  font-family: 'poppins';
+  text-transform: capitalize;
+}
