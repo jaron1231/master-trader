@@ -3,7 +3,7 @@ import axios from 'axios';
 class WatchlistService {
     constructor() {
         const service = axios.create({
-            baseURL: 'http://localhost:3000/api/watchlist',
+            baseURL: `${process.env.REACT_APP_BASE_URL}watchlist`,
             withCredentials: true
         });
         this.service = service;

@@ -3,7 +3,7 @@ import axios from 'axios';
 class Authservice {
     constructor() {
         const service = axios.create({
-            baseURL: 'http://localhost:3000/api/auth',
+            baseURL: `${process.env.REACT_APP_BASE_URL}auth`,
             withCredentials: true
         });
         this.service = service;

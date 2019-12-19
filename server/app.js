@@ -52,7 +52,7 @@ app.use(
 const authRouter = require('./routes/authRoutes');
 app.use('/api/auth', authRouter);
 
-const upload = require('./routes/upload');
+const upload = require('./routes/Upload');
 app.use('/api/upload', upload);
 
 const StockData = require('./routes/DataRoute');
