@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82bddce0.chunk.css",
+    "main.js": "/static/js/main.0e95c2d4.chunk.js",
+    "main.js.map": "/static/js/main.0e95c2d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b240f91f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b240f91f.js.map",
+    "static/css/2.6a13f422.chunk.css": "/static/css/2.6a13f422.chunk.css",
+    "static/js/2.6d958822.chunk.js": "/static/js/2.6d958822.chunk.js",
+    "static/js/2.6d958822.chunk.js.map": "/static/js/2.6d958822.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e969e4d2ba901e65337e83baa1a82b2c.js": "/precache-manifest.e969e4d2ba901e65337e83baa1a82b2c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6a13f422.chunk.css.map": "/static/css/2.6a13f422.chunk.css.map",
+    "static/css/main.82bddce0.chunk.css.map": "/static/css/main.82bddce0.chunk.css.map",
+    "static/media/arrow.9871758f.svg": "/static/media/arrow.9871758f.svg",
+    "static/media/bull-01.png": "/static/media/bull-01.24a14a39.png",
+    "static/media/App.css": "/static/media/stocky.e4e87fba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b240f91f.js",
+    "static/css/2.6a13f422.chunk.css",
+    "static/js/2.6d958822.chunk.js",
+    "static/css/main.82bddce0.chunk.css",
+    "static/js/main.0e95c2d4.chunk.js"
+  ]
+}
