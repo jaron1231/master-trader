@@ -3,7 +3,7 @@ import axios from 'axios';
 class StockService {
     constructor() {
         const service = axios.create({
-            baseURL: 'https://cloud.iexapis.com/stable/api/stock/',
+            baseURL: 'https://cloud.iexapis.com/stable/stock/',
         });
         this.service = service;
     }
